@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { api } from "~/utils/api";
 
-const Home: NextPage = () => {
+const Ricardo: NextPage = () => {
   return (
     <>
       
@@ -18,4 +18,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Ricardo;
