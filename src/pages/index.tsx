@@ -46,9 +46,9 @@ const Home: NextPage = () => {
               href="ricardo"
               //target="_blank"
             >
-              <h3 className="text-2xl font-bold">Go To Ricardo's page →</h3>
+              <h3 className="text-2xl font-bold">Go To Ricardos page →</h3>
               <div className="text-lg">
-                Go To Ricardo's Page
+                Go To Ricardos Page
               </div>
             </Link>
           </div>
