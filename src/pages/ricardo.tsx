@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <main className="">
         <h1>This is Ricardo's page</h1>
           </main>
-          <Link className="flex max-w-xs flex-col gap-4 rounded-xl p-4 hover:bg-white/20" href="/" >
+          <Link className="flex max-w-xs flex-col gap-4 text-blue-600 rounded-xl p-4 hover:bg-white/20" href="/" >
               <p>Go To Home Page</p>
           </Link>
     </>
