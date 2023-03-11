@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import LoginHero from "~/components/loginHero";
 
 import { api } from "~/utils/api";
 
@@ -57,6 +58,8 @@ const Home: NextPage = () => {
             {hello.data ? hello.data.greeting : "Loading tRPC query..."}
           </p>
         </div>
+        <LoginHero></LoginHero>
+        {/*
         <div className="min-w-screen hero min-h-screen bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="text-center lg:text-left">
@@ -103,6 +106,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+        */}
       </main>
     </>
   );
